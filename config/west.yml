@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmk
-      url-base: https://github.com/yuumasato
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: zmk
-      revision: kyria3
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
