@@ -56,9 +56,9 @@
 //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp TAB   &kp Q &kp W    &kp E     &kp R    &kp T                                            &kp Y &kp U  &kp I     &kp O   &kp P    &kp ESC
-	&kp LCTRL &kp A &kp S    &kp D     &kp F    &kp G                                            &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RALT
+	&kp LGUI  &kp A &kp S    &kp D     &kp F    &kp G                                            &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RALT
 	&kp LSHFT &kp Z &kp X    &kp C     &kp V    &kp B &kp LSHFT   &kp ESC     &kp LSHFT &kp LGUI &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &td_shft
-                    &kp LGUI &kp LCTRL &kp LALT &jht XCHARS SPACE &kp RET     &kp LGUI  &qht NAV BSPC &mt LCTRL TAB &kp LALT &kp RGUI
+                    &kp F13  &kp LCTRL &kp LALT &jht XCHARS SPACE &kp RET    &kp LGUI  &qht NAV BSPC &mt LCTRL TAB &kp LALT &kp RGUI
 			>;
 
 		};
